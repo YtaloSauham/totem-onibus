@@ -57,13 +57,38 @@ insert into public.item_de_itinerario (nome) values ('Maranhão Novo');
 insert into public.item_de_itinerario (nome) values ('Renascença');
 insert into public.item_de_itinerario (nome) values ('João Paulo');
 
+insert into public.item_de_itinerario (fk_idtipo,nome) values (160, 'IFMA/Monte Castelo');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (160, 'Escola Adventista/Maranhão Novo');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (160, 'Escola Adventista/Cidade Operária');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (160, 'Educalis/Angelim');
+
+insert into public.item_de_itinerario (fk_idtipo,nome) values (161, 'Rio Anil Shopping');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (161, 'Pop Center');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (161, 'Pátio Norte');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (161, 'Shopping São Luís');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (161, 'Shopping da Ilha');
+
+insert into public.item_de_itinerario (fk_idtipo,nome) values (159, 'Hospital São Domingos');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (159, 'Socorrão/Centro');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (159, 'UDI');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (159, 'Natus Lumine');
+
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Cohab');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Monte Castelo');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Centro');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Angelim');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Cidade Operária');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Maranhão Novo');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'Renascença');
+insert into public.item_de_itinerario (fk_idtipo,nome) values (157, 'João Paulo');
+
 /*select * from item_de_itinerario;*/
 
 /*INSERÇÃO DOS ITINERÁRIOS*/
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,1,2,18);
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,2,2,14);
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,3,2,5);
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,4,2,17);
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,5,2,19);
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,6,2,1);
-insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (1,7,2,16);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,1,106,522);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,2,106,518);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,3,106,509);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,4,106,521);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,5,106,523);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,6,106,505);
+insert into public.itinerario (fk_idtipo_sentido,ordem,fk_idlinhas,fk_iditem) values (3,7,106,520);

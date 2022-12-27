@@ -23,13 +23,9 @@ test("Deve trazer os onibus de um determinado terminal,sentido e localização",
     })
 
     axios({
-        url:`http://localhost:3000/terminal/${terminalTest}`,
+        url:`http://localhost:4000/terminal/${terminalTest}/sentido`,
         method:"get",
-        data: {
-            sentido: "BAIRRO",
-            local: "Cohab"
-        }
-        
+        data:body
     }).then(data =>{
         expect(data.data).toEqual(resultCorrect)
     })

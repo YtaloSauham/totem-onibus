@@ -1,6 +1,6 @@
 import express from 'express';
 import pgp from 'pg-promise';
-import Bus from './entities/bus';
+
 require('dotenv')
 /*
 
@@ -55,5 +55,5 @@ app.get(`/terminal/:id/linha`, async function (request, response){
   
 
 })
-app.listen(3000)
+app.listen(3010)
 console.log("Backend Executando...")

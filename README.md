@@ -1,4 +1,4 @@
-# totem-onibus-backend
+# totem-onibus-backend-node
 
 ## 📜 Descrição do Projeto
 
